@@ -23,6 +23,6 @@ Database connection is configured within the `app.module.ts` file
     app.useGlobalPipes(new ValidationPipe());
     ```
 
-- **Interceptors**: Interceptors are employed at the controller level, providing a way to customize data handling and processing during request handling.
+- **Interceptors**: Interceptors are employed at the controller level.
 
 - **Guards**: Guards are utilized at the route level to control access and protect specific routes.
